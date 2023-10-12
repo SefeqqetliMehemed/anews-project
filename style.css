@@ -1,0 +1,719 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #008bcc;
+    flex-wrap: wrap;
+}
+
+.headercon {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 1100px;
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.right .fa-bars {
+    display: none;
+}
+
+nav i {
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: #f1f1f1;
+}
+
+.contologo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1f1f1;
+    gap: 10px;
+}
+
+.lang {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+.serch {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+i {
+    font-size: 18px;
+}
+
+.left img {
+    height: 50px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.al {
+    display: flex;
+}
+
+main #section {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+main .lefy {
+    /* width: 30vh; */
+    margin-top: 10px;
+}
+main #lefy {
+    width: 1100px;
+    margin: 10px auto 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secrighty {
+}
+
+.secline {
+    background-color: #008bcc;
+    height: 39px;
+    width: 4px;
+}
+
+.sekil2 {
+    font-size: 25px;
+    background-color: #008bcc;
+    color: white;
+    padding: 5px;
+}
+
+.sekil1 {
+    background-color: #e2d9d9;
+    display: flex;
+    gap: 5px;
+}
+
+.sekil1x {
+    background-color: #e2d9d9;
+    display: flex;
+    gap: 5px;
+}
+
+#all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#all .contosekil {
+    height: 300px;
+    width: 350px;
+    border: 2px solid rgb(196, 196, 196);
+    overflow: hidden;
+}
+
+.footerconta .fa-bars {
+    display: none;
+}
+
+.imgbox {
+    height: 200px;
+}
+
+.centerbox {
+    background-color: #e2d9d9;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    position: relative;
+    align-items: center;
+    padding: 2px 5px;
+}
+
+.centerboxtitle {
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #008bcc;
+}
+
+.boxtitle {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s all;
+}
+
+.contosekil:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.contosekil img:hover {
+    transform: scale(1.05);
+}
+
+.contosekil .centerboxtime:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.sectionfoot {
+    background-color: #201f1f;
+}
+
+.footerconta {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.log {
+    position: relative;
+    top: 50px;
+}
+
+.ig {
+    color: #f1f1f1;
+    display: flex;
+    gap: 20px;
+    padding: 85px 40px;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f1f1f1;
+    position: relative;
+}
+
+#iki {
+    position: relative;
+    bottom: 50px;
+}
+
+.telefon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f1f1f1;
+}
+
+#uc {
+    position: relative;
+    bottom: 50px;
+}
+
+.unvan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f1f1f1;
+}
+
+#dord {
+    position: relative;
+    bottom: 50px;
+}
+
+.bir {
+    position: relative;
+    top: 30px;
+}
+
+.iki {
+    position: relative;
+    top: 77px;
+}
+
+.uc {
+    position: relative;
+    top: 30px;
+}
+
+.vid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 1100px;
+    color: #f1f1f1;
+    margin: 0 auto;
+}
+
+.d {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.s {
+    padding: 0 50px;
+}
+
+.s:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.b:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.c:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#egile {
+    display: flex;
+    padding: 0 350px;
+    position: relative;
+    top: 205px;
+}
+
+#q {
+    width: 1px;
+    height: 185px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+}
+
+#w {
+    width: 1px;
+    height: 185px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+}
+
+#e {
+    width: 1px;
+    height: 185px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+}
+
+.telefon3 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    color: #f1f1f1;
+}
+
+.mail2 {
+    background-color: #201f1f;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    left: 260px;
+    bottom: 20px;
+}
+
+.unvan2 {
+    background-color: #201f1f;
+    width: 45px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    left: 165px;
+    bottom: 15px;
+}
+
+.telefon2 {
+    background-color: #201f1f;
+    width: 52px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    left: 90px;
+    bottom: 15px;
+}
+
+.mail2:hover {
+    cursor: pointer;
+}
+
+.unvan2:hover {
+    cursor: pointer;
+}
+
+.telefon2:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+}
+
+@media only screen and (max-width: 1108px) {
+    #all {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .right .fa-bars {
+        display: inline;
+    }
+
+    .footerconta .fa-bars {
+        display: inline;
+    }
+
+    .headercon {
+        width: 100%;
+    }
+
+    #section {
+        width: 100%;
+        display: inline;
+    }
+
+    .mail {
+        display: none;
+    }
+
+    .telefon {
+        display: none;
+    }
+
+    .unvan {
+        display: none;
+    }
+
+    .mail2 {
+        display: none;
+    }
+
+    .unvan2 {
+        display: none;
+    }
+
+    .telefon2 {
+        display: none;
+    }
+
+    .logopng i {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        left: 300px;
+    }
+
+    .vid {
+        display: inline;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .footerconta {
+        width: 100%;
+    }
+
+    .d {
+        width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newsimg {
+    height: 90px;
+    width: 100px;
+}
+
+.newsimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.boxnews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 250px;
+    border-bottom: 2px solid rgb(184, 184, 184);
+}
+
+.text {
+    width: 131px;
+    font-size: 13px;
+}
+
+.lefy {
+}
+
+.secrighty {
+}
+
+.flex2 {
+    display: flex;
+}
+
+.secRight {
+}
+
+.al {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    display: flex;
+    width: 300px;
+}
+
+.sectionright img {
+}
+
+h1 {
+    font-size: 35px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.secRight {
+    border: 1px solid rgb(201, 198, 198);
+    width: 750px;
+}
+
+.xeber {
+    font-size: 25px;
+    background-color: #008bcc;
+    color: white;
+    padding: 5px;
+}
+
+.xeberler {
+    background-color: #e2d9d9;
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+#xeber {
+    margin-top: 10px;
+}
+
+.xeber2 {
+    background-color: #008bcc;
+    height: 39px;
+    width: 4px;
+}
+
+.sectionxeber {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sectionrighty {
+    width: 240px;
+    height: 200px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.sectionrighty img:hover {
+    transform: scale(1.1);
+    text-decoration: blue;
+    cursor: pointer;
+}
+
+.sectionrighty img {
+    width: 100%;
+    transition: 0.5s all;
+}
+
+.sekil1x {
+    margin-top: 10px;
+}
+
+#lefy {
+    flex-direction: row;
+    display: flex;
+}
+
+.sectionrighty {
+    border: 1px solid grey;
+    width: 220px;
+}
+@media only screen and (max-width: 1296px) {
+    .secRight {
+        border: 1px solid rgb(201, 198, 198);
+        width: 100%;
+    }
+    .sectionright {
+        width: 100%;
+        height: 400px;
+    }
+    .text02 {
+        padding: 5px;
+        text-align: justify;
+    }
+    .sectionright img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .centerleft {
+        margin: 0;
+    }
+
+    .sekil1x {
+        margin-left: 0;
+        /*  width: 100vw; */
+    }
+
+    #lefy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionxeber {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*  margin-left: 80px; */
+        width: auto;
+    }
+    #xeber {
+        margin-left: 0;
+        /* margin-right: 50px; */
+    }
+    .sectionrighty {
+        margin-left: 0;
+    }
+    .secrighty {
+        gap: 10px;
+        /*  margin-left: 50px; */
+    }
+    .center {
+        display: flex;
+        width: 100%;
+    }
+    .centerleft {
+        margin: 0;
+        width: 100%;
+    }
+    .boxnews {
+        width: 100%;
+    }
+    .ig {
+        color: #f1f1f1;
+        display: flex;
+        gap: 20px;
+        padding: 0px;
+    }
+    .xeberler {
+        /* width: 60vw; */
+    }
+    
+   
+    main #lefy {
+        width: 100%;
+        margin: 10px auto 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media only screen and (max-width:420px){
+    .newsimg {
+        height: 90px;
+        width: 187px;
+    }
+
+    .sectionrighty {
+        border: 1px solid grey;
+        width: 100%;
+    }
+}
